@@ -1,2 +1,5 @@
 # 100DaysOfPython
-100 days of coding python course by Angela Yu
+
+All files are exercises and projects from the course "100 Days of Code: The Complete Python Pro Bootcamp for 2022" by Angela Yu
+
+
