@@ -34,7 +34,7 @@ account_b = generate_account(data)
 while not game_over:
   account_a = account_b
   account_b = generate_account(data)
-  if account_a == account_b:
+  while account_a == account_b:
     account_b = generate_account(data)
   
   print(f"Compare A: {print_compare(account_a)}")
