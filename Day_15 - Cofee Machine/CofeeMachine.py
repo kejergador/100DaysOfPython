@@ -41,6 +41,7 @@ def use_resources(user_order, machine_menu, machine_resources):
     for menu_ingredients_key in machine_menu[user_order]["ingredients"]:
         # print(menu_ingredients_key)  # REPRESENT KEY water, coffee
         # print(menu[order]["ingredients"][menu_ingredients_key])  # REPRESENT VALUES [50,18]
+
         for resources_key in machine_resources:
             if resources_key == menu_ingredients_key:
                 machine_resources[menu_ingredients_key] -= menu[user_order]["ingredients"][menu_ingredients_key]
